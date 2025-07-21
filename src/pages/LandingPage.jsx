@@ -25,7 +25,7 @@ export default function LandingPage() {
       <div className="hero-content">
         <h1>QuietZenFocus</h1>
         <p>
-        QuietZenFocus is your minimalist focus companion. With calming videos, ambient music, a built-in Pomodoro timer, to-do list, and hydration reminders — it's designed to help you lock in and stay productive.
+        QuietZenFocus is your minimalist focus companion. With calming videos, ambient music, a built-in Pomodoro timer, to-do list, and hydration reminders. It's designed to help you lock in and stay productive.
         </p>
       </div>
       <h2> Features</h2>

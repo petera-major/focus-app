@@ -51,6 +51,7 @@ export default function LandingPage() {
                 className="download-btn"
                 href="https://drive.google.com/uc?export=download&id=1ytGA4ljlw3r4BMBD0O8zpBpl2Wv6hyOL"
                 target="_blank"
+                rel="noopener noreferrer"
                 >
                 Download QuietZenFocus for macOS
                 </a>

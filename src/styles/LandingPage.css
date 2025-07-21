@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #dfe9f3, #f7f8fc);
+    color: #333;
+  }
+  
+  .landing-wrapper {
+    position: relative;
+    padding: 40px 20px;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 248, 255, 0.6);
+    z-index: -1;
+    backdrop-filter: blur(4px);
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #4c4cde;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  .hero-content p {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: #6b73ff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  ul li {
+    background-color: #f0f4ff;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    color: #444;
+  }
+  
+  .gallery-section {
+    margin-top: 40px;
+  }
+  
+  .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  
+  .video-card {
+    background: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .video-card video {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .video-card p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9rem;
+    background-color: #f5f5f5;
+    color: #888;
+    border-top: 1px solid #ddd;
+  }
+  
+  footer a {
+    display: block;
+    margin-top: 5px;
+    color: #4c4cde;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .macos-note {
+    background-color: #111;
+    color: #fff;
+    border-left: 4px solid #ffd700;
+    padding: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .macos-note h3 {
+    margin-top: 0;
+    color: #ffd700;
+  }
+  
+  .macos-note ol {
+    padding-left: 20px;
+  }
+  .download-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #cfecee;
+    color: #111;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #ddb9f0;
+    color: black;
+  }
+  

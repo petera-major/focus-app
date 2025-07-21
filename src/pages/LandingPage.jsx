@@ -1,10 +1,8 @@
 import React from "react";
 import "../styles/LandingPage.css";
 import '../styles/GallerySection.css'; 
-import { useNavigate } from "react-router-dom";
 
 export default function LandingPage() {
-  const navigate = useNavigate();
 
   const videoData = [
     {
